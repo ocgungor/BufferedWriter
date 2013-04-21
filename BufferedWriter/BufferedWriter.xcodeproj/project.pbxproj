@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56377F1817235E21000B58A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56377F1717235E21000B58A9 /* Foundation.framework */; };
+		56377F1B17235E21000B58A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56377F1A17235E21000B58A9 /* main.m */; };
+		56377F1F17235E21000B58A9 /* BufferedWriter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56377F1E17235E21000B58A9 /* BufferedWriter.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56377F1217235E21000B58A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				56377F1F17235E21000B58A9 /* BufferedWriter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		56377F1417235E21000B58A9 /* BufferedWriter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BufferedWriter; sourceTree = BUILT_PRODUCTS_DIR; };
+		56377F1717235E21000B58A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56377F1A17235E21000B58A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56377F1D17235E21000B58A9 /* BufferedWriter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BufferedWriter-Prefix.pch"; sourceTree = "<group>"; };
+		56377F1E17235E21000B58A9 /* BufferedWriter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BufferedWriter.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56377F1117235E21000B58A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56377F1817235E21000B58A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56377F0B17235E21000B58A9 = {
+			isa = PBXGroup;
+			children = (
+				56377F1917235E21000B58A9 /* BufferedWriter */,
+				56377F1617235E21000B58A9 /* Frameworks */,
+				56377F1517235E21000B58A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56377F1517235E21000B58A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56377F1417235E21000B58A9 /* BufferedWriter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56377F1617235E21000B58A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56377F1717235E21000B58A9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56377F1917235E21000B58A9 /* BufferedWriter */ = {
+			isa = PBXGroup;
+			children = (
+				56377F1A17235E21000B58A9 /* main.m */,
+				56377F1E17235E21000B58A9 /* BufferedWriter.1 */,
+				56377F1C17235E21000B58A9 /* Supporting Files */,
+			);
+			path = BufferedWriter;
+			sourceTree = "<group>";
+		};
+		56377F1C17235E21000B58A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56377F1D17235E21000B58A9 /* BufferedWriter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56377F1317235E21000B58A9 /* BufferedWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56377F2217235E21000B58A9 /* Build configuration list for PBXNativeTarget "BufferedWriter" */;
+			buildPhases = (
+				56377F1017235E21000B58A9 /* Sources */,
+				56377F1117235E21000B58A9 /* Frameworks */,
+				56377F1217235E21000B58A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BufferedWriter;
+			productName = BufferedWriter;
+			productReference = 56377F1417235E21000B58A9 /* BufferedWriter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56377F0C17235E21000B58A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oguzhan Gungor";
+			};
+			buildConfigurationList = 56377F0F17235E21000B58A9 /* Build configuration list for PBXProject "BufferedWriter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56377F0B17235E21000B58A9;
+			productRefGroup = 56377F1517235E21000B58A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56377F1317235E21000B58A9 /* BufferedWriter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56377F1017235E21000B58A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56377F1B17235E21000B58A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56377F2017235E21000B58A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		56377F2117235E21000B58A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		56377F2317235E21000B58A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BufferedWriter/BufferedWriter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56377F2417235E21000B58A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BufferedWriter/BufferedWriter-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56377F0F17235E21000B58A9 /* Build configuration list for PBXProject "BufferedWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56377F2017235E21000B58A9 /* Debug */,
+				56377F2117235E21000B58A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56377F2217235E21000B58A9 /* Build configuration list for PBXNativeTarget "BufferedWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56377F2317235E21000B58A9 /* Debug */,
+				56377F2417235E21000B58A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56377F0C17235E21000B58A9 /* Project object */;
+}
